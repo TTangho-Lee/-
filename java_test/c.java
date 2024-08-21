@@ -3,8 +3,16 @@ package java_test;
 public class c {
     public static void main(String[] args) {
 
-        // 이 부분에 code를 작성해주세요!
-
+        Scanner scanner = new Scanner(System.in);
+        int input3_1=scanner.nextInt();
+        scanner.nextLine();
+        int input3_2=scanner.nextInt();
+        scanner.nextLine();
+        if(input3_1>=14||input3_2>=160){
+            System.out.println("X");
+        }else{
+            System.out.println("O");
+        }
     }
 
 }

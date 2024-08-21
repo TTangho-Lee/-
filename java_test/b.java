@@ -1,8 +1,7 @@
 package java_test;
-
+import java.util.Scanner;
 public class b {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         String input2 = scanner.nextLine();
         String[] array={"a","e","i","o","u"};
@@ -19,5 +18,4 @@ public class b {
             System.out.println("X");
         }
     }
-
 }
